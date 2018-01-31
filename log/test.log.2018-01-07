@@ -1,0 +1,709 @@
+2018-01-06 10:54:38,642 - framework - INFO - Welcome to Python.org
+2018-01-06 10:54:38,664 - framework - INFO - 官网
+2018-01-06 10:54:38,683 - framework - INFO - Python_百度百科
+2018-01-06 10:54:38,704 - framework - INFO - Download Python | Python.org
+2018-01-06 10:54:38,725 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 10:54:38,746 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 10:54:38,766 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 10:54:38,786 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 10:54:38,805 - framework - INFO - python吧_百度贴吧
+2018-01-06 10:54:50,744 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 10:54:50,785 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 10:54:50,809 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 10:54:50,830 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 10:54:50,850 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 10:54:50,870 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 10:54:50,891 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 10:54:50,912 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 10:54:50,932 - framework - INFO - Selenium_百度百科
+2018-01-06 10:54:50,954 - framework - INFO - selenium_百度翻译
+2018-01-06 10:54:54,133 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 10:54:55,136 - framework - ERROR - 发送邮件失败,无法连接到SMTP服务器，检查网络以及SMTP服务器. [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "E:\TestWorkSpace\utils\mail.py", line 64, in send
+    smtp_server = smtplib.SMTP(self.server)  # 连接sever
+  File "D:\Python36\lib\smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\Python36\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "D:\Python36\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "D:\Python36\lib\socket.py", line 724, in create_connection
+    raise err
+  File "D:\Python36\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2018-01-06 11:17:58,402 - framework - INFO - Welcome to Python.org
+2018-01-06 11:17:58,424 - framework - INFO - 官网
+2018-01-06 11:17:58,444 - framework - INFO - Python_百度百科
+2018-01-06 11:17:58,465 - framework - INFO - Download Python | Python.org
+2018-01-06 11:17:58,485 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:17:58,508 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:17:58,529 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:17:58,549 - framework - INFO - Python - 伯乐在线
+2018-01-06 11:17:58,570 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:18:10,554 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:18:10,575 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:18:10,594 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:18:10,618 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:18:10,639 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:18:10,661 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:18:10,682 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:18:10,707 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:18:10,733 - framework - INFO - Selenium_百度百科
+2018-01-06 11:18:10,755 - framework - INFO - selenium_百度翻译
+2018-01-06 11:18:13,813 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 11:18:14,816 - framework - ERROR - 发送邮件失败,无法连接到SMTP服务器，检查网络以及SMTP服务器. [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "E:\TestWorkSpace\utils\mail.py", line 64, in send
+    smtp_server = smtplib.SMTP(self.server)  # 连接sever
+  File "D:\Python36\lib\smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\Python36\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "D:\Python36\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "D:\Python36\lib\socket.py", line 724, in create_connection
+    raise err
+  File "D:\Python36\lib\socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2018-01-06 11:25:28,445 - framework - INFO - Welcome to Python.org
+2018-01-06 11:25:28,469 - framework - INFO - 官网
+2018-01-06 11:25:28,490 - framework - INFO - Python_百度百科
+2018-01-06 11:25:28,510 - framework - INFO - Download Python | Python.org
+2018-01-06 11:25:28,532 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:25:28,552 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:25:28,575 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:25:28,595 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:25:28,617 - framework - INFO - python吧_百度贴吧
+2018-01-06 11:25:40,275 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:25:40,296 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:25:40,317 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:25:40,340 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:25:40,359 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:25:40,380 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:25:40,401 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:25:40,422 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:25:40,443 - framework - INFO - Selenium_百度百科
+2018-01-06 11:25:40,465 - framework - INFO - selenium_百度翻译
+2018-01-06 11:25:43,527 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 11:30:36,018 - framework - INFO - Welcome to Python.org
+2018-01-06 11:30:36,039 - framework - INFO - 官网
+2018-01-06 11:30:36,061 - framework - INFO - Python_百度百科
+2018-01-06 11:30:36,081 - framework - INFO - Download Python | Python.org
+2018-01-06 11:30:36,101 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:30:36,121 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:30:36,141 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:30:36,161 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:30:36,182 - framework - INFO - python吧_百度贴吧
+2018-01-06 11:30:48,223 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:30:48,245 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:30:48,269 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:30:48,291 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:30:48,311 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:30:48,331 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:30:48,352 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:30:48,373 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:30:48,395 - framework - INFO - Selenium_百度百科
+2018-01-06 11:30:48,416 - framework - INFO - selenium_百度翻译
+2018-01-06 11:30:51,472 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 11:31:35,769 - framework - INFO - Welcome to Python.org
+2018-01-06 11:31:35,796 - framework - INFO - 官网
+2018-01-06 11:31:35,816 - framework - INFO - Python_百度百科
+2018-01-06 11:31:35,837 - framework - INFO - Download Python | Python.org
+2018-01-06 11:31:35,857 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:31:35,876 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:31:35,896 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:31:35,916 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:31:35,938 - framework - INFO - python吧_百度贴吧
+2018-01-06 11:31:47,540 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:31:47,560 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:31:47,580 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:31:47,600 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:31:47,620 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:31:47,642 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:31:47,661 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:31:47,683 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:31:47,704 - framework - INFO - Selenium_百度百科
+2018-01-06 11:31:47,724 - framework - INFO - selenium_百度翻译
+2018-01-06 11:31:50,799 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 11:32:25,247 - framework - INFO - Welcome to Python.org
+2018-01-06 11:32:25,272 - framework - INFO - 官网
+2018-01-06 11:32:25,293 - framework - INFO - Python_百度百科
+2018-01-06 11:32:25,314 - framework - INFO - Download Python | Python.org
+2018-01-06 11:32:25,334 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:32:25,354 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:32:25,375 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:32:25,397 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:32:25,417 - framework - INFO - python吧_百度贴吧
+2018-01-06 11:32:37,144 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:32:37,166 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:32:37,186 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:32:37,207 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:32:37,228 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:32:37,249 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:32:37,270 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:32:37,291 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:32:37,311 - framework - INFO - Selenium_百度百科
+2018-01-06 11:32:37,332 - framework - INFO - selenium_百度翻译
+2018-01-06 11:32:40,398 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 11:36:56,918 - framework - INFO - Welcome to Python.org
+2018-01-06 11:36:56,940 - framework - INFO - 官网
+2018-01-06 11:36:56,962 - framework - INFO - Python_百度百科
+2018-01-06 11:36:56,984 - framework - INFO - Download Python | Python.org
+2018-01-06 11:36:57,004 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:36:57,026 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:36:57,047 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:36:57,067 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:36:57,090 - framework - INFO - python吧_百度贴吧
+2018-01-06 11:37:08,824 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:37:08,846 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:37:08,866 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:37:08,886 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:37:08,907 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:37:08,929 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:37:08,949 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:37:08,970 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:37:08,991 - framework - INFO - Selenium_百度百科
+2018-01-06 11:37:09,014 - framework - INFO - selenium_百度翻译
+2018-01-06 11:37:12,084 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 11:41:36,539 - framework - INFO - Welcome to Python.org
+2018-01-06 11:41:36,561 - framework - INFO - 官网
+2018-01-06 11:41:36,585 - framework - INFO - Python_百度百科
+2018-01-06 11:41:36,606 - framework - INFO - Download Python | Python.org
+2018-01-06 11:41:36,625 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:41:36,646 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:41:36,668 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:41:36,688 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:41:36,709 - framework - INFO - python吧_百度贴吧
+2018-01-06 11:41:48,595 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:41:48,617 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:41:48,638 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:41:48,658 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:41:48,680 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:41:48,701 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:41:48,721 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:41:48,743 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:41:48,766 - framework - INFO - Selenium_百度百科
+2018-01-06 11:41:48,788 - framework - INFO - selenium_百度翻译
+2018-01-06 11:41:51,884 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 11:49:55,521 - framework - INFO - Welcome to Python.org
+2018-01-06 11:49:55,547 - framework - INFO - 官网
+2018-01-06 11:49:55,569 - framework - INFO - Python_百度百科
+2018-01-06 11:49:55,592 - framework - INFO - Download Python | Python.org
+2018-01-06 11:49:55,612 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:49:55,632 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:49:55,653 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:49:55,675 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:49:55,697 - framework - INFO - python吧_百度贴吧
+2018-01-06 11:50:07,772 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:50:07,796 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:50:07,818 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:50:07,840 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:50:07,863 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:50:07,886 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:50:07,907 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:50:07,928 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:50:07,949 - framework - INFO - Selenium_百度百科
+2018-01-06 11:50:07,970 - framework - INFO - selenium_百度翻译
+2018-01-06 11:50:11,032 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 11:52:08,385 - framework - INFO - Welcome to Python.org
+2018-01-06 11:52:08,406 - framework - INFO - 官网
+2018-01-06 11:52:08,428 - framework - INFO - Python_百度百科
+2018-01-06 11:52:08,449 - framework - INFO - Download Python | Python.org
+2018-01-06 11:52:08,469 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:52:08,490 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:52:08,513 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:52:08,533 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:52:08,555 - framework - INFO - python吧_百度贴吧
+2018-01-06 11:52:20,332 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:52:20,356 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:52:20,378 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:52:20,399 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:52:20,422 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:52:20,442 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:52:20,462 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:52:20,482 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:52:20,503 - framework - INFO - Selenium_百度百科
+2018-01-06 11:52:20,527 - framework - INFO - selenium_百度翻译
+2018-01-06 11:52:23,598 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 11:57:30,180 - framework - INFO - Welcome to Python.org
+2018-01-06 11:57:30,226 - framework - INFO - 官网
+2018-01-06 11:57:30,265 - framework - INFO - Python_百度百科
+2018-01-06 11:57:30,302 - framework - INFO - Download Python | Python.org
+2018-01-06 11:57:30,330 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 11:57:30,375 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 11:57:30,409 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 11:57:30,443 - framework - INFO - Python - 伯乐在线
+2018-01-06 11:57:30,477 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 11:57:42,563 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 11:57:42,583 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 11:57:42,603 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 11:57:42,625 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 11:57:42,646 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 11:57:42,667 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 11:57:42,687 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 11:57:42,709 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 11:57:42,730 - framework - INFO - Selenium_百度百科
+2018-01-06 11:57:42,754 - framework - INFO - selenium_百度翻译
+2018-01-06 11:57:45,832 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 12:01:06,069 - framework - INFO - Welcome to Python.org
+2018-01-06 12:01:06,097 - framework - INFO - 官网
+2018-01-06 12:01:06,121 - framework - INFO - Python_百度百科
+2018-01-06 12:01:06,144 - framework - INFO - Download Python | Python.org
+2018-01-06 12:01:06,167 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 12:01:06,188 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 12:01:06,213 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 12:01:06,236 - framework - INFO - Python - 伯乐在线
+2018-01-06 12:01:06,258 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 12:01:18,898 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 12:01:18,922 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 12:01:18,951 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 12:01:18,983 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 12:01:19,011 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 12:01:19,034 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 12:01:19,061 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 12:01:19,084 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 12:01:19,105 - framework - INFO - Selenium_百度百科
+2018-01-06 12:01:19,128 - framework - INFO - selenium_百度翻译
+2018-01-06 12:01:22,192 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 12:01:37,503 - framework - ERROR - 用户名密码验证失败！(535, b'Error: \xc7\xeb\xca\xb9\xd3\xc3\xca\xda\xc8\xa8\xc2\xeb\xb5\xc7\xc2\xbc\xa1\xa3\xcf\xea\xc7\xe9\xc7\xeb\xbf\xb4: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256')
+Traceback (most recent call last):
+  File "E:\TestWorkSpace\utils\mail.py", line 73, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\Python36\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "D:\Python36\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\Python36\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: \xc7\xeb\xca\xb9\xd3\xc3\xca\xda\xc8\xa8\xc2\xeb\xb5\xc7\xc2\xbc\xa1\xa3\xcf\xea\xc7\xe9\xc7\xeb\xbf\xb4: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256')
+2018-01-06 12:01:44,405 - framework - INFO - 发送邮件"autoUITest case baidu QueryTest report"成功! 收件人：aliumin2008a@yeah.net。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-06 12:03:16,074 - framework - INFO - Welcome to Python.org
+2018-01-06 12:03:16,096 - framework - INFO - 官网
+2018-01-06 12:03:16,117 - framework - INFO - Python_百度百科
+2018-01-06 12:03:16,137 - framework - INFO - Download Python | Python.org
+2018-01-06 12:03:16,157 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 12:03:16,182 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 12:03:16,204 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 12:03:16,228 - framework - INFO - Python - 伯乐在线
+2018-01-06 12:03:16,251 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 12:03:27,985 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 12:03:28,008 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 12:03:28,030 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 12:03:28,051 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 12:03:28,072 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 12:03:28,094 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 12:03:28,116 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 12:03:28,138 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 12:03:28,160 - framework - INFO - Selenium_百度百科
+2018-01-06 12:03:28,180 - framework - INFO - selenium_百度翻译
+2018-01-06 12:03:31,256 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 12:04:02,850 - framework - ERROR - 用户名密码验证失败！(535, b'Error: \xc7\xeb\xca\xb9\xd3\xc3\xca\xda\xc8\xa8\xc2\xeb\xb5\xc7\xc2\xbc\xa1\xa3\xcf\xea\xc7\xe9\xc7\xeb\xbf\xb4: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256')
+Traceback (most recent call last):
+  File "E:\TestWorkSpace\utils\mail.py", line 73, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\Python36\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "D:\Python36\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\Python36\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: \xc7\xeb\xca\xb9\xd3\xc3\xca\xda\xc8\xa8\xc2\xeb\xb5\xc7\xc2\xbc\xa1\xa3\xcf\xea\xc7\xe9\xc7\xeb\xbf\xb4: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256')
+2018-01-06 12:04:10,986 - framework - INFO - 发送邮件"autoUITest case baidu QueryTest report"成功! 收件人：aliumin2008a@yeah.net。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-06 12:14:15,841 - framework - INFO - Welcome to Python.org
+2018-01-06 12:14:15,867 - framework - INFO - 官网
+2018-01-06 12:14:15,890 - framework - INFO - Python_百度百科
+2018-01-06 12:14:15,920 - framework - INFO - Download Python | Python.org
+2018-01-06 12:14:15,944 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 12:14:15,973 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 12:14:15,994 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 12:14:16,025 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 12:14:16,046 - framework - INFO - python吧_百度贴吧
+2018-01-06 12:14:27,833 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 12:14:27,865 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 12:14:27,891 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 12:14:27,922 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 12:14:27,945 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 12:14:27,972 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 12:14:27,992 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 12:14:28,019 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 12:14:28,040 - framework - INFO - Selenium_百度百科
+2018-01-06 12:14:28,068 - framework - INFO - selenium_百度翻译
+2018-01-06 12:14:31,137 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 12:15:34,679 - framework - INFO - Welcome to Python.org
+2018-01-06 12:15:34,703 - framework - INFO - 官网
+2018-01-06 12:15:34,729 - framework - INFO - Python_百度百科
+2018-01-06 12:15:34,750 - framework - INFO - Download Python | Python.org
+2018-01-06 12:15:34,776 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 12:15:34,799 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 12:15:34,824 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 12:15:34,846 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 12:15:34,873 - framework - INFO - python吧_百度贴吧
+2018-01-06 12:15:46,866 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 12:15:46,892 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 12:15:46,916 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 12:15:46,942 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 12:15:46,966 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 12:15:46,993 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 12:15:47,019 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 12:15:47,043 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 12:15:47,073 - framework - INFO - Selenium_百度百科
+2018-01-06 12:15:47,099 - framework - INFO - selenium_百度翻译
+2018-01-06 12:15:50,233 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 12:19:32,360 - framework - INFO - Welcome to Python.org
+2018-01-06 12:19:32,384 - framework - INFO - 官网
+2018-01-06 12:19:32,411 - framework - INFO - Python_百度百科
+2018-01-06 12:19:32,435 - framework - INFO - Download Python | Python.org
+2018-01-06 12:19:32,463 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 12:19:32,486 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 12:19:32,515 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 12:19:32,538 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 12:19:32,566 - framework - INFO - python吧_百度贴吧
+2018-01-06 12:19:44,690 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 12:19:44,718 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 12:19:44,742 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 12:19:44,773 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 12:19:44,795 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 12:19:44,821 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 12:19:44,845 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 12:19:44,873 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 12:19:44,894 - framework - INFO - Selenium_百度百科
+2018-01-06 12:19:44,921 - framework - INFO - selenium_百度翻译
+2018-01-06 12:19:47,991 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 12:20:18,414 - framework - ERROR - 用户名密码验证失败！(535, b'Error: \xc7\xeb\xca\xb9\xd3\xc3\xca\xda\xc8\xa8\xc2\xeb\xb5\xc7\xc2\xbc\xa1\xa3\xcf\xea\xc7\xe9\xc7\xeb\xbf\xb4: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256')
+Traceback (most recent call last):
+  File "E:\TestWorkSpace\utils\mail.py", line 72, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\Python36\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "D:\Python36\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\Python36\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: \xc7\xeb\xca\xb9\xd3\xc3\xca\xda\xc8\xa8\xc2\xeb\xb5\xc7\xc2\xbc\xa1\xa3\xcf\xea\xc7\xe9\xc7\xeb\xbf\xb4: http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=1001256')
+2018-01-06 12:20:22,916 - framework - INFO - 发送邮件"autoUITest case baidu QueryTest report"成功! 收件人：aliumin2008a@yeah.net。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-06 12:35:27,980 - framework - INFO - Welcome to Python.org
+2018-01-06 12:35:28,000 - framework - INFO - 官网
+2018-01-06 12:35:28,021 - framework - INFO - Python_百度百科
+2018-01-06 12:35:28,043 - framework - INFO - Download Python | Python.org
+2018-01-06 12:35:28,068 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 12:35:28,100 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 12:35:28,131 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 12:35:28,156 - framework - INFO - Python - 伯乐在线
+2018-01-06 12:35:28,181 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 12:35:39,690 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 12:35:39,713 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 12:35:39,734 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 12:35:39,757 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 12:35:39,777 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 12:35:39,798 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 12:35:39,821 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 12:35:39,841 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 12:35:39,862 - framework - INFO - Selenium_百度百科
+2018-01-06 12:35:39,884 - framework - INFO - selenium_百度翻译
+2018-01-06 12:35:42,954 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 12:37:27,909 - framework - INFO - Welcome to Python.org
+2018-01-06 12:37:27,931 - framework - INFO - 官网
+2018-01-06 12:37:27,951 - framework - INFO - Python_百度百科
+2018-01-06 12:37:27,971 - framework - INFO - Download Python | Python.org
+2018-01-06 12:37:27,992 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 12:37:28,017 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 12:37:28,039 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 12:37:28,060 - framework - INFO - Python - 伯乐在线
+2018-01-06 12:37:28,082 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 12:37:39,812 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 12:37:39,846 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 12:37:39,866 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 12:37:39,887 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 12:37:39,907 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 12:37:39,930 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 12:37:39,951 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 12:37:39,971 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 12:37:39,991 - framework - INFO - Selenium_百度百科
+2018-01-06 12:37:40,013 - framework - INFO - selenium_百度翻译
+2018-01-06 12:37:43,082 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 12:37:53,727 - framework - INFO - 发送邮件"autoUITest case baidu QueryTest report"成功! 收件人：aliumin2008a@yeah.net。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-06 18:17:01,403 - framework - INFO - Welcome to Python.org
+2018-01-06 18:17:01,451 - framework - INFO - 官网
+2018-01-06 18:17:01,457 - framework - INFO - Python_百度百科
+2018-01-06 18:17:01,490 - framework - INFO - Download Python | Python.org
+2018-01-06 18:17:01,509 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 18:17:01,524 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 18:17:01,540 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 18:17:01,557 - framework - INFO - Python - 伯乐在线
+2018-01-06 18:17:01,588 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 18:17:01,604 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 18:17:38,423 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 18:17:38,454 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 18:17:38,470 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 18:17:38,506 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 18:17:38,531 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 18:17:38,555 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 18:17:38,571 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 18:17:38,586 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 18:17:38,608 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 18:17:38,623 - framework - INFO - Selenium_百度百科
+2018-01-06 18:17:45,349 - framework - INFO - attach file E:\TestWorkSpace\report\report.html
+2018-01-06 18:17:56,462 - framework - INFO - 发送邮件"autoUITest case baidu QueryTest report"成功! 收件人：aliumin2008a@yeah.net。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-06 18:22:04,585 - framework - INFO - Welcome to Python.org
+2018-01-06 18:22:04,609 - framework - INFO - 官网
+2018-01-06 18:22:04,624 - framework - INFO - Python_百度百科
+2018-01-06 18:22:04,640 - framework - INFO - Download Python | Python.org
+2018-01-06 18:22:04,656 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 18:22:04,687 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 18:22:04,708 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 18:22:04,724 - framework - INFO - Python - 伯乐在线
+2018-01-06 18:22:04,740 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 18:22:04,755 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 18:23:03,334 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 18:23:03,357 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 18:23:03,379 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 18:23:03,400 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 18:23:03,421 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 18:23:03,442 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 18:23:03,455 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 18:23:03,482 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 18:23:03,503 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 18:23:03,525 - framework - INFO - Selenium_百度百科
+2018-01-06 18:26:38,483 - framework - INFO - Welcome to Python.org
+2018-01-06 18:26:38,510 - framework - INFO - 官网
+2018-01-06 18:26:38,527 - framework - INFO - Python_百度百科
+2018-01-06 18:26:38,558 - framework - INFO - Download Python | Python.org
+2018-01-06 18:26:38,574 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 18:26:38,605 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 18:26:38,621 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 18:26:38,657 - framework - INFO - Python - 伯乐在线
+2018-01-06 18:26:38,674 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 18:26:38,705 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 18:27:02,173 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 18:27:02,189 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 18:27:02,220 - framework - INFO - Selenium WebDriver
+2018-01-06 18:27:02,236 - framework - INFO - Selenium_百度百科
+2018-01-06 18:27:02,258 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 18:27:02,289 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 18:27:02,321 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 18:27:02,336 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 18:27:02,374 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 18:27:02,390 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 18:35:23,271 - framework - INFO - Welcome to Python.org
+2018-01-06 18:35:23,291 - framework - INFO - 官网
+2018-01-06 18:35:23,309 - framework - INFO - Python_百度百科
+2018-01-06 18:35:23,325 - framework - INFO - Download Python | Python.org
+2018-01-06 18:35:23,340 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 18:35:23,356 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 18:35:23,388 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 18:35:23,404 - framework - INFO - Python - 伯乐在线
+2018-01-06 18:35:23,419 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 18:35:23,435 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 18:35:36,693 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 18:35:36,709 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 18:35:36,740 - framework - INFO - Selenium WebDriver
+2018-01-06 18:35:36,762 - framework - INFO - Selenium_百度百科
+2018-01-06 18:35:36,777 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 18:35:36,793 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 18:35:36,809 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 18:35:36,840 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 18:35:36,861 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 18:35:36,877 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 19:21:23,588 - framework - INFO - Welcome to Python.org
+2018-01-06 19:21:23,609 - framework - INFO - 官网
+2018-01-06 19:21:23,630 - framework - INFO - Python_百度百科
+2018-01-06 19:21:23,651 - framework - INFO - Download Python | Python.org
+2018-01-06 19:21:23,671 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 19:21:23,692 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 19:21:23,712 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 19:21:23,733 - framework - INFO - Python - 伯乐在线
+2018-01-06 19:21:23,754 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 19:21:23,775 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 19:21:38,102 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 19:21:38,139 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 19:21:38,176 - framework - INFO - Selenium WebDriver
+2018-01-06 19:21:38,217 - framework - INFO - Selenium_百度百科
+2018-01-06 19:21:38,237 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 19:21:38,257 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 19:21:38,278 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 19:21:38,299 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 19:21:38,320 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 19:21:38,342 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 19:23:35,885 - framework - INFO - Welcome to Python.org
+2018-01-06 19:23:35,907 - framework - INFO - 官网
+2018-01-06 19:23:35,928 - framework - INFO - Python_百度百科
+2018-01-06 19:23:35,950 - framework - INFO - Download Python | Python.org
+2018-01-06 19:23:35,971 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 19:23:35,991 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 19:23:36,011 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 19:23:36,031 - framework - INFO - Python - 伯乐在线
+2018-01-06 19:23:36,051 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 19:23:36,074 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 19:23:51,359 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 19:23:51,380 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 19:23:51,400 - framework - INFO - Selenium WebDriver
+2018-01-06 19:23:51,421 - framework - INFO - Selenium_百度百科
+2018-01-06 19:23:51,443 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 19:23:51,463 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 19:23:51,484 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 19:23:51,505 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 19:23:51,525 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 19:23:51,546 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 19:27:44,731 - framework - INFO - Welcome to Python.org
+2018-01-06 19:27:44,758 - framework - INFO - 官网
+2018-01-06 19:27:44,778 - framework - INFO - Python_百度百科
+2018-01-06 19:27:44,799 - framework - INFO - Download Python | Python.org
+2018-01-06 19:27:44,819 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 19:27:44,839 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 19:27:44,859 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 19:27:44,880 - framework - INFO - Python - 伯乐在线
+2018-01-06 19:27:44,902 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 19:27:44,921 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 19:27:59,341 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 19:27:59,363 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 19:27:59,384 - framework - INFO - Selenium WebDriver
+2018-01-06 19:27:59,404 - framework - INFO - Selenium_百度百科
+2018-01-06 19:27:59,425 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 19:27:59,446 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 19:27:59,467 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 19:27:59,488 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 19:27:59,508 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 19:27:59,531 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 19:29:58,513 - framework - INFO - Welcome to Python.org
+2018-01-06 19:29:58,535 - framework - INFO - 官网
+2018-01-06 19:29:58,557 - framework - INFO - Python_百度百科
+2018-01-06 19:29:58,580 - framework - INFO - Download Python | Python.org
+2018-01-06 19:29:58,600 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 19:29:58,621 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 19:29:58,641 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 19:29:58,661 - framework - INFO - Python - 伯乐在线
+2018-01-06 19:29:58,682 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 19:29:58,702 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 19:30:12,559 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 19:30:12,583 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 19:30:12,603 - framework - INFO - Selenium WebDriver
+2018-01-06 19:30:12,629 - framework - INFO - Selenium_百度百科
+2018-01-06 19:30:12,651 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 19:30:12,672 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 19:30:12,693 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 19:30:12,713 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 19:30:12,734 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-06 19:30:12,757 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 19:39:36,029 - framework - INFO - Welcome to Python.org
+2018-01-06 19:39:36,052 - framework - INFO - 官网
+2018-01-06 19:39:36,072 - framework - INFO - Python_百度百科
+2018-01-06 19:39:36,092 - framework - INFO - Download Python | Python.org
+2018-01-06 19:39:36,113 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 19:39:36,133 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 19:39:36,153 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 19:39:36,175 - framework - INFO - Python - 伯乐在线
+2018-01-06 19:39:36,196 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 19:39:36,218 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 19:39:50,209 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 19:39:50,230 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 19:39:50,251 - framework - INFO - Selenium WebDriver
+2018-01-06 19:39:50,276 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 19:39:50,297 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 19:39:50,318 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 19:39:50,339 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 19:39:50,361 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 19:39:50,381 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 19:39:50,403 - framework - INFO - Selenium_百度百科
+2018-01-06 19:42:14,001 - framework - INFO - Welcome to Python.org
+2018-01-06 19:42:14,024 - framework - INFO - 官网
+2018-01-06 19:42:14,045 - framework - INFO - Python_百度百科
+2018-01-06 19:42:14,066 - framework - INFO - Download Python | Python.org
+2018-01-06 19:42:14,087 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 19:42:14,108 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 19:42:14,129 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 19:42:14,149 - framework - INFO - Python - 伯乐在线
+2018-01-06 19:42:14,171 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 19:42:14,193 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 19:42:28,980 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 19:42:29,001 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 19:42:29,022 - framework - INFO - Selenium WebDriver
+2018-01-06 19:42:29,043 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 19:42:29,063 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 19:42:29,083 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 19:42:29,105 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 19:42:29,125 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 19:42:29,145 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 19:42:29,167 - framework - INFO - Selenium_百度百科
+2018-01-06 19:45:49,324 - framework - INFO - Welcome to Python.org
+2018-01-06 19:45:49,347 - framework - INFO - 官网
+2018-01-06 19:45:49,369 - framework - INFO - Python_百度百科
+2018-01-06 19:45:49,391 - framework - INFO - Download Python | Python.org
+2018-01-06 19:45:49,411 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-06 19:45:49,431 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-06 19:45:49,452 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-06 19:45:49,472 - framework - INFO - Python - 伯乐在线
+2018-01-06 19:45:49,492 - framework - INFO - Python3 教程 | 菜鸟教程
+2018-01-06 19:45:49,511 - framework - INFO - Python 2.7教程 - 廖雪峰的官方网站
+2018-01-06 19:46:03,242 - framework - INFO - Selenium - Web Browser Automation
+2018-01-06 19:46:03,262 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-06 19:46:03,282 - framework - INFO - Selenium WebDriver
+2018-01-06 19:46:03,303 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-06 19:46:03,323 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-06 19:46:03,343 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-06 19:46:03,366 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-06 19:46:03,386 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-06 19:46:03,406 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-06 19:46:03,426 - framework - INFO - Selenium_百度百科
+2018-01-07 10:22:56,769 - framework - INFO - Welcome to Python.org
+2018-01-07 10:22:56,900 - framework - INFO - 官网
+2018-01-07 10:22:56,921 - framework - INFO - Python_百度百科
+2018-01-07 10:22:56,941 - framework - INFO - Download Python | Python.org
+2018-01-07 10:22:56,956 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-07 10:22:56,972 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-07 10:22:56,988 - framework - INFO - Python - 伯乐在线
+2018-01-07 10:22:57,003 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-07 10:22:57,034 - framework - INFO - 可以用 Python 编程语言做哪些神奇好玩的事情? - 知乎
+2018-01-07 10:22:57,050 - framework - INFO - 玩蛇网 - Python教程学习与Python资源分享平台
+2018-01-07 10:23:11,161 - framework - INFO - Selenium - Web Browser Automation
+2018-01-07 10:23:11,176 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-07 10:23:11,192 - framework - INFO - Selenium WebDriver
+2018-01-07 10:23:11,207 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-07 10:23:11,239 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-07 10:23:11,254 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-07 10:23:11,270 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-07 10:23:11,286 - framework - INFO - python爬虫从入门到放弃(八)之 Selenium库的使用 - pytho..._博客园
+2018-01-07 10:23:11,301 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-07 10:23:11,332 - framework - INFO - Selenium_百度百科
+2018-01-07 10:38:01,174 - framework - INFO - Welcome to Python.org
+2018-01-07 10:38:01,206 - framework - INFO - 官网
+2018-01-07 10:38:01,236 - framework - INFO - Python_百度百科
+2018-01-07 10:38:01,255 - framework - INFO - Download Python | Python.org
+2018-01-07 10:38:01,274 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-07 10:38:01,293 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-07 10:38:01,312 - framework - INFO - Python - 伯乐在线
+2018-01-07 10:38:01,331 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-07 10:38:01,350 - framework - INFO - 可以用 Python 编程语言做哪些神奇好玩的事情? - 知乎
+2018-01-07 10:38:01,370 - framework - INFO - 玩蛇网 - Python教程学习与Python资源分享平台
+2018-01-07 10:38:14,439 - framework - INFO - Selenium - Web Browser Automation
+2018-01-07 10:38:14,468 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-07 10:38:14,497 - framework - INFO - Selenium WebDriver
+2018-01-07 10:38:14,516 - framework - INFO - Selenium(浏览器自动化测试框架)_百度百科
+2018-01-07 10:38:14,535 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-07 10:38:14,555 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-07 10:38:14,574 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-07 10:38:14,592 - framework - INFO - python爬虫从入门到放弃(八)之 Selenium库的使用 - pytho..._博客园
+2018-01-07 10:38:14,611 - framework - INFO - Selenium介绍及原理解析 - CSDN博客
+2018-01-07 10:38:14,629 - framework - INFO - Selenium_百度百科
+2018-01-07 10:41:03,345 - framework - INFO - Welcome to Python.org
+2018-01-07 10:41:03,365 - framework - INFO - 官网
+2018-01-07 10:41:03,384 - framework - INFO - Python_百度百科
+2018-01-07 10:41:03,404 - framework - INFO - Download Python | Python.org
+2018-01-07 10:41:03,424 - framework - INFO - Python 基础教程 | 菜鸟教程
+2018-01-07 10:41:03,443 - framework - INFO - Python教程 - 廖雪峰的官方网站
+2018-01-07 10:41:03,464 - framework - INFO - Python - 伯乐在线
+2018-01-07 10:41:03,484 - framework - INFO - Python 简介 | 菜鸟教程
+2018-01-07 10:41:03,505 - framework - INFO - 可以用 Python 编程语言做哪些神奇好玩的事情? - 知乎
+2018-01-07 10:41:03,525 - framework - INFO - 玩蛇网 - Python教程学习与Python资源分享平台
+2018-01-07 10:41:16,536 - framework - INFO - Selenium - Web Browser Automation
+2018-01-07 10:41:16,556 - framework - INFO - 功能自动化测试工具——Selenium篇
+2018-01-07 10:41:16,575 - framework - INFO - Selenium WebDriver
+2018-01-07 10:41:16,594 - framework - INFO - Selenium_百度百科
+2018-01-07 10:41:16,613 - framework - INFO - selenium + python自动化测试环境搭建 - 虫师 - 博客园
+2018-01-07 10:41:16,634 - framework - INFO - Selenium Documentation — Selenium Documentation
+2018-01-07 10:41:16,654 - framework - INFO - 自动化基础普及之selenium是啥? - 虫师 - 博客园
+2018-01-07 10:41:16,674 - framework - INFO - selenium - 随笔分类 - 虫师 - 博客园
+2018-01-07 10:41:16,693 - framework - INFO - 怎样开始用selenium进行自动化测试(个人总结)_百度经验
+2018-01-07 10:41:16,712 - framework - INFO - Selenium介绍及原理解析 - CSDN博客

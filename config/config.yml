@@ -1,0 +1,11 @@
+URL: http://www.baidu.com
+WEBHOOK: https://oapi.dingtalk.com/robot/send?access_token=167f287e5dd30b55b51791eccefdb9f5c1cf0a89ffe60116268bea69551ee4cb
+ATPERSON:
+        - 13567178849
+        - 15990133724
+log:
+    file_name: test.log
+    backup: 5
+    console_level: WARNING
+    file_level: DEBUG
+    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
